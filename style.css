@@ -9,13 +9,21 @@ h1 {
     background-color: yellow;
     margin: 0; /* Add margin reset for consistency */
 }
-
+#search-input {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    width: 50%;
+    margin: 20px auto;
+}
 #map {
     height: 100vh;
     width: 100vw;
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: all 0.5s ease-in-out;
 }
 
 /* Media queries for responsiveness */
