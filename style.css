@@ -1,14 +1,60 @@
-body{
+/* Base styles for all devices */
+body {
     background-color: black;
+    margin: 0; /* Add margin reset for consistency */
 }
-h1{
+
+h1 {
     text-align: center;
     background-color: yellow;
+    margin: 0; /* Add margin reset for consistency */
 }
-#map{
+
+#map {
     height: 100vh;
     width: 100vw;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/* Media queries for responsiveness */
+
+/* Small devices (phones, less than 600px) */
+@media (max-width: 599px) {
+    h1 {
+        font-size: 1.5em;
+        padding: 10px;
+    }
+
+    #map {
+        height: 80vh;
+        width: 100%;
+    }
+}
+
+/* Medium devices (tablets, 600px and up) */
+@media (min-width: 600px) and (max-width: 1023px) {
+    h1 {
+        font-size: 2em;
+        padding: 15px;
+    }
+
+    #map {
+        height: 90vh;
+        width: 100%;
+    }
+}
+
+/* Large devices (desktops, 1024px and up) */
+@media (min-width: 1024px) {
+    h1 {
+        font-size: 2.5em;
+        padding: 20px;
+    }
+
+    #map {
+        height: 100vh;
+        width: 100vw;
+    }
 }
