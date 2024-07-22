@@ -1,0 +1,14 @@
+body{
+    background-color: black;
+}
+h1{
+    text-align: center;
+    background-color: yellow;
+}
+#map{
+    height: 100vmin;
+    width: 100vmax;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
