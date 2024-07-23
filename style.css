@@ -1,6 +1,6 @@
 /* Base styles for all devices */
 body {
-    padding: 20px;
+    padding: 5px;
     background-color: black;
     margin: 0; /* Add margin reset for consistency */
 }
