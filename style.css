@@ -4,11 +4,7 @@ body {
     margin: 0; /* Add margin reset for consistency */
 }
 
-h1 {
-    text-align: center;
-    background-color: yellow;
-    margin: 0; /* Add margin reset for consistency */
-}
+
 #search-input {
     padding: 10px;
     font-size: 16px;
