@@ -1,16 +1,28 @@
 /* Base styles for all devices */
 body {
+    padding: 20px;
     background-color: black;
     margin: 0; /* Add margin reset for consistency */
 }
-
-
+#pookie-name{
+    font-family: sans-serif;
+    font-size:2vmax;
+    padding-left: 20px;
+}
+#header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: black;
+    color: whitesmoke;
+}
 #search-input {
     padding: 10px;
     font-size: 16px;
     border: none;
     border-radius: 5px;
-    width: 50%;
+    width: 30%;
     margin: 20px auto;
 }
 #map {
